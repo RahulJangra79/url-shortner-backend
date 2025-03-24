@@ -1,16 +1,16 @@
 {
   "name": "url-shortner-backend",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000u\u0000r\u0000l\u0000-\u0000s\u0000h\u0000o\u0000r\u0000t\u0000n\u0000e\u0000r\u0000-\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
-  "keywords": [],
-  "license": "ISC",
-  "author": "r",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -19,6 +19,5 @@
     "nanoid": "^5.1.5",
     "nodemon": "^3.1.9",
     "qrcode": "^1.5.4"
-  },
-  "devDependencies": {}
+  }
 }
