@@ -6,7 +6,17 @@ const { nanoid } = require('nanoid');
 const QRCode = require('qrcode');
 
 const app = express();
-app.use(cors());
+
+// https://url-shortner-three-rosy.vercel.app/
+
+const corsOptions = {
+    origin: 'https://url-shortner-three-rosy.vercel.app',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  };
+  
+  app.use(cors(corsOptions));
+  
+// app.use(cors());
 app.use(express.json());
 
 // DB Connection
